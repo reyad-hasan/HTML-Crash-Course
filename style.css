@@ -24,3 +24,19 @@ a {
   margin-top: 10px;
   font-size: 25px;
 }
+img {
+  width: 250px;
+  margin: 15px;
+}
+table {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 2px solid green;
+}
+td {
+  padding: 10px;
+}
