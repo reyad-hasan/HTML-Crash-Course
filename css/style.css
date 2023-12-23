@@ -40,3 +40,23 @@ th {
 td {
   padding: 10px;
 }
+ul,
+ol {
+  margin-left: 20px;
+  margin-top: 20px;
+  border: 2px solid black;
+}
+#title {
+  font-size: 60px;
+  background-color: antiquewhite;
+  display: inline;
+  padding: 5px 40px;
+}
+.thisClass {
+  color: blueviolet;
+  background-color: black;
+  margin-top: 10px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
