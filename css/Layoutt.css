@@ -42,6 +42,7 @@ section {
   background: #cdeaff;
   display: flex;
   gap: 10px;
+  height: 60vh;
 }
 div {
   border: 2px solid green;
@@ -71,6 +72,33 @@ aside li {
   font-size: 25px;
 }
 aside a:hover {
+  background: gray;
+}
+.Please-login {
+  margin-top: 25px;
+}
+aside div {
+  width: 100%;
+}
+aside div form {
+  text-align: center;
+}
+aside div form input {
+  width: 100%;
+  padding: 15px;
+  margin-top: 8px;
+  border-radius: 5px;
+  border: none;
+}
+.submit {
+  width: 70%;
+  font-weight: bold;
+  background: #e8336d;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+.submit:hover {
   background: gray;
 }
 footer {
